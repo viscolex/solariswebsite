@@ -1,0 +1,305 @@
+/*============================================================
+                    Large devices
+==============================================================*/
+
+@media (min-width: 1200px){
+
+}
+
+
+@media (min-width: 992px) and (max-width:1199px) {
+    canvas {
+        width: 1400px;
+        height: 1400px;
+    }
+    .mid-text p {
+        font-size: 1.35em;
+        font-weight: 300;
+        color: #FFC037;
+    }
+
+    #roadmap .section-head {
+        padding-top: 50px;
+    }
+
+    .navbar-brand img {
+        padding-left: 10px;
+    }
+
+    .site-header .navbar-brand img {
+        max-height: 30px;
+    }
+
+    #social-nav-bar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .token-details-list {
+        padding-bottom: 50px;
+    }
+
+    #coin-params .section-head {
+        padding-top: 50px;
+    }
+
+    #team .section-head {
+        padding-top: 50px;
+    }
+
+    #faq .section-head {
+        padding-top: 50px;
+    }
+
+    #resources .section-head {
+        padding-top: 50px;
+    }
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width:991px) {
+    canvas {
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .navbar-brand img {
+        padding-left: 10px;
+    }
+
+    #txbit-bg-diagonal {
+        width: 100%;
+        background-size: 100%;
+        float: none;
+        border-left: none;
+        border-top: none;
+        height: 300px;
+    }
+
+    #txbit-content-box {
+        float: none;
+        height: 300px;
+        text-align: center;
+    }
+
+    #middler {
+        padding-top: 200px;
+        padding-bottom: 120px;
+    }
+
+    #stats {
+        padding-bottom: 150px;
+    }
+
+    #roadmap .section-head {
+        padding-top: 50px;
+    }
+
+    .token-details-list {
+        padding-bottom: 40px;
+    }
+
+    #coin-params .section-head {
+        padding-top: 50px;
+    }
+    #team .section-head {
+        padding-top: 50px;
+    }
+
+    #faq .section-head {
+        padding-top: 50px;
+    }
+
+    #resources .section-head {
+        padding-top: 50px;
+    }
+
+    #exchanges .section-head {
+        padding-top: 50px;
+    }
+
+    #medium .section-head {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    #stats .section-head {
+        padding-top: 50px;
+    }
+
+    #social-nav-bar {
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    #social-nav-bar li {
+        padding-left: 30px;
+    }
+
+    #app {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (min-width:321px) and (max-width:575px) {
+
+    canvas {
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .navbar-brand img {
+        padding-left: 10px;
+    }
+
+    #txbit-bg-diagonal {
+        width: 100%;
+        background-size: 100%;
+        float: none;
+        border-left: none;
+        border-top: none;
+        height: 300px;
+    }
+
+    #txbit-content-box {
+        float: none;
+        height: 450px;
+        text-align: center;
+    }
+
+    #middler {
+        padding-top: 200px;
+        padding-bottom: 120px;
+    }
+
+    #stats {
+        padding-bottom: 150px;
+    }
+
+    #roadmap .section-head {
+        padding-top: 50px;
+    }
+
+    .token-details-list {
+        padding-bottom: 40px;
+    }
+
+    #coin-params .section-head {
+        padding-top: 50px;
+    }
+
+    #team .section-head {
+        padding-top: 50px;
+    }
+
+    #faq .section-head {
+        padding-top: 50px;
+    }
+
+    #resources .section-head {
+        padding-top: 50px;
+    }
+
+    #exchanges .section-head {
+        padding-top: 30px;
+    }
+
+    #medium .section-head {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    #stats .section-head {
+        padding-top: 30px;
+    }
+
+    #social-nav-bar {
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    #social-nav-bar li {
+        padding-left: 10px;
+    }
+
+}
+
+
+@media (max-width:320px) {
+    canvas {
+        width: 500px;
+        height: 500px;
+    }
+
+    .navbar-brand img {
+        padding-left: 0px;
+    }
+
+    #txbit-bg-diagonal {
+        width: 100%;
+        background-size: 100%;
+        float: none;
+        border-left: none;
+        border-top: none;
+        height: 300px;
+    }
+
+    #txbit-content-box {
+        float: none;
+        height: 300px;
+        text-align: center;
+    }
+
+    .token-details-list {
+        padding-bottom: 40px;
+    }
+
+    #middler {
+        padding-top: 500px;
+        padding-bottom: 120px;
+    }
+
+    #roadmap .section-head {
+        padding-top: 50px;
+    }
+
+    #coin-params .section-head {
+        padding-top: 50px;
+    }
+
+    #team .section-head {
+        padding-top: 50px;
+    }
+
+    #faq .section-head {
+        padding-top: 50px;
+    }
+
+    #resources .section-head {
+        padding-top: 50px;
+    }
+
+    #social-nav-bar {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    #exchanges .section-head {
+        padding-top: 30px;
+    }
+
+    #medium .section-head {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    #stats .section-head {
+        padding-top: 30px;
+    }
+}

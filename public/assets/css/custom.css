@@ -1,0 +1,770 @@
+/*============================================================
+                    General
+==============================================================*/
+
+.unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.inner-bg {
+    background-image: url(../images/inner-head.png), url(../images/inner-bottom.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom left;
+}
+
+
+/*============================================================
+                    NavBar
+==============================================================*/
+
+.navbar {
+    padding: 50px 40px;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-brand img {
+    padding-left: 50px;
+}
+
+.io-lobelia .site-header.has-fixed .navbar {
+    padding: 0px 5px 0px 5px;
+}
+
+.site-header .navbar-brand img {
+    transition: all .5s ease-in-out;
+}
+
+.site-header.has-fixed .navbar-brand img {
+    max-height: 25px;
+    transition: all .5s ease-in-out;
+}
+
+#social-nav-bar {
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+
+#social-nav-bar li a {
+    background: none;
+    padding: 0px;
+    margin: 0;
+    color: #FFC037;
+    font-size: 14px;
+    margin-right: -10px;
+}
+
+#social-nav-bar li a:hover {
+    color: #000537;
+    background: #FFC037;
+}
+
+/*============================================================
+                    Header
+==============================================================*/
+
+.header-image-lobelia {
+    padding-top: 250px;
+    padding-bottom: 60px;
+}
+
+.header-txt h1 {
+    padding-bottom: 100px;
+}
+
+.btn-main {
+    background-image: none;
+    font-size: 18px;
+    padding-top: 15px;
+    min-width: 20px;
+}
+
+.btn-main:hover, .btn-main:before {
+    background-image: none;
+    font-size: 18px;
+    padding-top: 15px;
+    min-width: 20px;
+    color: #FFC037;
+}
+
+
+
+/*============================================================
+                    About
+==============================================================*/
+
+#about {
+    padding-top: 60px;
+}
+
+#about .section-head span {
+    color: rgba(255, 192, 55, 0.1);
+}
+
+
+
+
+/*============================================================
+                    Partners
+==============================================================*/
+
+#partners {
+    padding-top: 60px;
+    background-image: linear-gradient(#0A1992, #000537)
+}
+
+
+/*============================================================
+                    TXBIT PARTNERSHIP
+==============================================================*/
+
+#txbit {
+    background-color: #000537;
+    color: #fff;
+}
+
+#txbit-bg-diagonal {
+    width: 45%;
+    height: 700px;
+    float: right;
+    background-image: url(../images/bg-about.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: right;
+    border-left: 200px solid #000537;
+    border-top: 700px solid transparent;
+}
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+    #txbit-bg-diagonal {
+        background-size: 60%;
+        border-left: none;
+        border-top: none;
+        height: 750px;
+    }
+ }
+
+ @supports (-ms-ime-align: auto) {
+    #txbit-bg-diagonal {
+        background-size: 90%;
+        border-left: none;
+        border-top: none;
+        height: 750px;
+    }
+  }
+
+@-moz-document url-prefix() {
+    #txbit-bg-diagonal {
+        background-size: 90%;
+        border-left: none;
+        border-top: none;
+        height: 750px;
+    }
+}
+
+#txbit-content-box {
+    float: left;
+    height: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+#txbit-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+    padding: 50px;
+}
+
+#txbit-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#txbit .content-title h2 {
+    text-align: left
+}
+
+#txbit .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#txbit-description p {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+/*============================================================
+                    Middler
+==============================================================*/
+
+#middler {
+    background-color: #000537;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#middler span {
+    position: absolute;
+    color: rgba(122, 15, 255, 0.15);
+    top: 50%;
+    left: 0;
+    width: 100%;
+    content: attr(data-content);
+    font-weight: 600;
+    font-size: 320px;
+    height: 320px;
+    margin-top: -160px;
+    line-height: 1;
+    z-index: 1;
+}
+
+.mid-text {
+    background-color: rgba(122, 15, 255, 0.1);
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 70px 10px 70px;
+}
+
+.mid-text p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #FFC037;
+}
+
+/*============================================================
+                    Solaris Reward Program
+==============================================================*/
+
+#solaris-reward {
+    background-color: #000537;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#solaris-reward .section-head span {
+    color: rgba(255, 192, 55, 0.05);
+}
+
+#xlr-reward-button {
+    padding: 30px 0 0 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*============================================================
+                    Wallets
+==============================================================*/
+
+
+
+.section-bg-alt {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.features-box-s3 {
+    background-color: rgba(10, 23, 133, 0.6);
+    border: 1px solid #6320EE;
+    border-radius: 20px 20px 20px 20px;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 40px;
+    position: initial;
+}
+
+.features-box-s3 span {
+    color: #FFC037;
+    font-weight: 400;
+}
+
+
+.background-shape {
+    background: rgba(6, 9, 25, 0.01);
+}
+
+.features-title-s3 {
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.wallet-download {
+    border-radius: 10px;
+    position: static;
+    top: 93%;
+    left: 27%;
+}
+
+.btn-wallet {
+    background-image: none;
+    border: 1px solid #FFC037;
+    font-size: 14px;
+}
+
+#wallets .section-head {
+    padding-top: 30px;
+}
+
+.btn-outline i {
+    font-size: 25px;
+    padding: 10px 10px;
+    font-weight: 300;
+}
+
+.btn-wallet:hover,.btn-wallet::before  {
+    background-image: none;
+    background-color: #FFC037;
+    color: #000537;
+    border: none;
+    font-size: 15px;
+}
+
+#download-btstrp {
+    padding-top: 10px;
+}
+
+#btstrp-dl {
+    width: 100%;
+    height: 100%;
+    padding: 15px 0 20px 0;
+}
+
+#how-to-btstrp {
+    font-size: 12px;
+    padding-top: 0px;
+}
+
+/*============================================================
+                    EXCHANGES
+==============================================================*/
+
+.exchange {
+    padding: 40px 0;
+}
+
+.exchange img {
+    margin: 0 auto 0 auto;
+    padding: 30px 30px 30px 30px;
+}
+
+.exchange img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#exchanges .section-head {
+    padding-top: 60px;
+}
+
+.exchange img:hover {
+    filter: none;
+}
+
+.section-bg-pad {
+    padding-top: 100px;
+}
+
+#exchanges-all {
+    padding-bottom: 100px;
+}
+
+/*============================================================
+                    MEDIUM
+==============================================================*/
+
+#medium .section-head {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#medium-text {
+    padding: 0 20px 50px 20px;
+}
+
+.blog .blog-post {
+    margin-bottom: 60px;
+}
+
+.blog .blog-post header {
+    position: relative;
+}
+
+.blog .blog-post .blog-content {
+    padding: 15px 28px;
+    background-image: linear-gradient(to top, #0A1785, transparent);
+    border: 1px solid #6320EE;
+    border-radius: 0 0 20px 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.blog .blog-post .blog-content h4 {
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
+.blog .blog-post .blog-content h4 a {
+    color: #FFC037;
+    font-size: 14px;
+}
+
+.blog .blog-post .blog-content .post-meta {
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    border-bottom: 1px solid #6320EE;
+}
+
+/*============================================================
+                    STATS
+==============================================================*/
+
+
+.twitter-timeline {
+    background-image: none;
+}
+
+#stats {
+    padding-bottom: 0px;
+}
+
+.coinmarketcap-currency-widget {
+    padding-bottom: 50px;
+    padding-top: 0px;
+    border: none;
+}
+
+#cryptocompare {
+    height: 600px;
+}
+
+
+/*============================================================
+                    Roadmap
+==============================================================*/
+
+
+
+.timeline-done span {
+    color: #4D7EA8;
+}
+
+.timeline-done .timeline-info li {
+    color: #75ABBC;
+}
+
+.timeline-done .timeline-title {
+    color: #136F63;
+}
+
+.timeline-current span {
+    color: #23B5D3;
+}
+
+.timeline-current .timeline-info li {
+    color: #22AAA1;
+}
+
+.timeline-current .timeline-title {
+    color: #FFC037;
+}
+
+.timeline-item-next span {
+    color: #75ABBC;
+}
+
+.timeline-item-next .timeline-info li {
+    color: #75ABBC;
+}
+
+.timeline-item-next .timeline-title {
+    color: #136F63;
+}
+
+#roadmap .section-head {
+    padding-top: 10px;
+}
+
+/*============================================================
+                    Coin Parameters
+==============================================================*/
+
+.param-title-left {
+    background-color: #000537;
+    border: 1px solid #6320EE;
+    border-radius: 20px 20px 0 0;
+    border-left: none;
+    border-right: none;
+    color: #FFC037;
+}
+
+.param-desc-left-1 {
+    border-left: none;
+    border-right: none;
+    border-color: #6320EE;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.param-desc-left-1 h6 {
+    font-weight: 700;
+}
+
+.param-desc-left-1 span {
+    font-weight: 200;
+}
+
+.param-desc-left-2 span {
+    color: #3F88C5;
+}
+
+.param-desc-left-2 {
+    border-color: #6320EE;
+    border-left: none;
+    border-right: none;
+    border-radius: 0 0 20px 20px;
+}
+
+
+.params-title p {
+    padding: 0px 0 15px 0;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.token-details-list {
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.token-details-list li:nth-child(odd) .token-details-info {
+    background-color: navy;
+    color: #FFC037;
+}
+
+.token-details-list li:nth-child(odd) .token-details-title {
+    background-color: #000537;
+    color: #fff;
+}
+
+
+.token-details-list li:nth-child(even) .token-details-info {
+    background-color: transparent;
+    color: #FFC037;
+}
+
+.token-details-list li:nth-child(even) .token-details-title {
+    background-color: #0A1785;
+    color: #fff;
+}
+
+/*============================================================
+                    Team
+==============================================================*/
+
+.admin-desc {
+    padding-top: 15px;
+}
+
+#team .section-head {
+    padding-bottom: 50px;
+}
+
+.team-text {
+    padding-bottom: 70px;
+}
+
+.team-braker {
+    padding: 0 0 50px 0;
+}
+
+
+/*============================================================
+                    Resources
+==============================================================*/
+
+.resources-big-box {
+    margin: 50px 20px 50px 20px;
+    padding: 20px 20px 20px 20px;
+    background-image: linear-gradient(to top, #0A1785, transparent);
+    border: 1px solid #6320EE;
+    border-radius: 20px;
+    border-right: none;
+    border-left: none;
+}
+
+.big-box-text p {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #FFC037;
+
+}
+
+.big-box-img {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.big-box-img img {
+    width: 70%;
+}
+
+.btn-resources {
+    background-image: none;
+    border: 1px solid #6320EE;
+
+}
+
+.btn-resources:hover {
+    color: #FFC037;
+}
+
+
+
+.resources-items {
+    background-image: linear-gradient(to top, #0A1785, transparent);
+    display: table-cell;
+    height: 100px;
+    text-align: center;
+    width: 800px;
+    vertical-align: middle;
+
+}
+
+.resources-items:hover {
+    background-image: linear-gradient(to bottom, #0A1785, #000537);
+}
+
+
+#resources .section-head {
+    padding-bottom: 0px;
+}
+
+.resources-items img {
+    max-height: 40px;
+    max-width: 200px;
+}
+
+#resources .params-title {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+
+/*============================================================
+                    Calculator
+==============================================================*/
+
+#app {
+    border: 1px solid #6320EE;
+    border-radius: 20px;
+    border-right: none;
+    border-left: none;
+    background-image: linear-gradient(to top, #0A1785, #000537);
+    padding: 50px 20px 50px 20px;
+}
+
+.uk-form-label {
+    color: #FFC037;
+}
+
+.uk-form-label.green  {
+    color: #22c147
+}
+
+.uk-form-width-medium {
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 195);
+    background-color: transparent;
+    color: white;
+}
+
+.uk-form-width-medium:active {
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 195);
+    background-color: transparent;
+    color: white;
+}
+
+.uk-form-width-medium:disabled {
+    background-color: transparent;
+    border: 1px solid rgb(197, 197, 195);
+    color: rgb(197, 197, 195);
+}
+
+.calc-head {
+    padding-bottom: 40px;
+}
+
+/*============================================================
+                    Footer
+==============================================================*/
+
+.social-overlap {
+    position: absolute;
+    top: -5px;
+}
+
+footer {
+    padding-top:  0;
+    padding-bottom: 0;
+}
+
+#footer-scetion li a {
+    color: #fff
+}
+
+.copyright {
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+.btm-social-icons em {
+    color: #0A1785;
+}
+
+/*============================================================
+                    PARALLAX 
+==============================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*============================================================
+                    Buttons
+==============================================================*/
+
+
+.btn-general {
+    background-image: none;
+    border: 1px solid #FFC037;
+    font-size: 14px;
+}
+
+.btn-general:hover, .btn-general:before {
+    background-image: none;
+    background-color: #FFC037;
+    color: #000537;
+    border: none;
+    font-size: 14px;
+}
